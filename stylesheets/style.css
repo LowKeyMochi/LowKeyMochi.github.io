@@ -1,0 +1,70 @@
+/* CSS Document */
+
+/*----------------
+
+Basic Structure
+
+----------------*/
+#wrapper {
+	width: 960px;
+	padding: 5px;
+	margin: 20px auto;
+}
+#header {
+	height: 100px;
+}
+#sidebar {
+	float: left;
+	wifth: 300px;
+}
+#content {
+	float: right;
+	width: 600px;
+}
+#footer {
+	clear: both;
+}
+/*----------------
+
+COLOR AND FONTS
+color.adobe.com
+
+----------------*/
+body {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #01E8CC;
+	background-image: url("/images/deku.jpg");
+}
+
+#header, #sidebar, #content, #footer {
+	background-color:rgba(0,255,207,0.12);
+	margin-bottom: 4px;
+	border: double;
+	border-radius: 8px;
+	border-color: grey;
+	padding-left: grey;
+	padding-right: 4px;
+}
+
+/*----------------
+
+RESPONSE DESIGN
+
+----------------*/
+@media screen and (max-width: 980px) {
+	
+}
+@media screen and(max-width: 700px) {
+	
+}
+/* Phones */
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 568px) {
+		
+}
+	
+	
+	
+	
+	
